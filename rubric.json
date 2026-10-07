@@ -1,0 +1,66 @@
+{
+  "rubricId": "poster-presentation",
+  "title": "Poster Presentation Rubric",
+  "criteria": [
+    {
+      "criterionId": "poster-design", "name": "Poster Design", "weight": 0.25,
+      "levels": [
+        {"label": "Excellent", "score": 5, "descriptor": "The poster is overall visually appealing - information is well organized, and the text content, graphics, color, font size/selection, and other visual elements work together to communicate a cohesive message. Graphics (e.g. CAD drawings, tables, figures, etc.) are engaging and complement the text. The poster stands alone and can be understood without narration."},
+        {"label": "Great", "score": 4, "descriptor": "The poster is overall visually appealing - information is well organized, and to a large extent, the text content, graphics, color, font size/selection, and other visual elements work cohesively with one another. Graphics (e.g. CAD drawings, tables, figures, etc.) are engaging and complement the text content. The poster stands alone and can be understood without narration."},
+        {"label": "Good", "score": 3, "descriptor": "The poster organization and look is adequate, with visual elements working cohesively to some extent, but their placement or design somewhat detract from understanding the poster (for example: they are cluttered, the colors or patterns used make the content difficult to discern). Graphics (e.g. CAD drawings, tables, figures, etc.) complement the text content. The poster cannot stand alone and because of its somewhat lack of organization, requires narration to understand."},
+        {"label": "Fair", "score": 2, "descriptor": "The poster organization and look is acceptable, but the placement or design of visual elements are distracting from understanding the poster content (for example: they are somewhat cluttered, the colors or patterns used make the content difficult to discern). Some of the graphics (e.g. CAD drawings, tables, figures, etc.) complement the text content to some extent. The poster cannot stand alone and because of its lack of organization, requires narration to understand."},
+        {"label": "Poor", "score": 1, "descriptor": "The poster is overall visually unappealing - information is poorly organized, and visual elements are used incohesively, making it difficult to follow the poster organization. Graphics (e.g. CAD drawings, tables, figures, etc.) are not used or do not complement the text in anyway. The poster cannot stand alone and because of its lack of organization, requires narration to understand."}
+      ]
+    },
+    {
+      "criterionId": "physical-prototype", "name": "Physical Prototype", "weight": 0.10,
+      "levels": [
+        {"label": "Excellent", "score": 5, "descriptor": "Excellent use of materials and resources available to the course to create a functioning, proof-of-concept prototype. Presenter(s) have exceeded expectations by incorporating a high level of detail into their fabrication (i.e. circuitry is housed and invisible to the user, user interface is accessible, etc.) and/or additional elements into their project (i.e. website, additional functionalities as defined by the RAD mentor)."},
+        {"label": "Great", "score": 4, "descriptor": "Excellent use of materials and resources available to the course to create a functioning, proof-of-concept prototype. Presenter(s) have exceeded expectations by incorporating some additional level of detail into their fabrication (i.e. circuitry is housed and invisible to the user, user interface is accessible, etc.) and/or additional elements into their project (i.e. website, additional functionalities as defined by the RAD mentor)."},
+        {"label": "Good", "score": 3, "descriptor": "Adequate use of materials and resources available to the course to create a functioning, proof-of-concept prototype."},
+        {"label": "Fair", "score": 2, "descriptor": "Adequate use of materials and resources available to the course to create a proof-of-concept prototype."},
+        {"label": "Poor", "score": 1, "descriptor": "Presenter(s) failed to complete and present working prototype."}
+      ]
+    },
+    {
+      "criterionId": "prototype-success", "name": "Prototype Success", "weight": 0.15,
+      "levels": [
+        {"label": "Excellent", "score": 5, "descriptor": "Presenter(s) have clearly identified an engineering solution to a real-world problem and demonstrated a feasible solution to the issue. The device's performance is repeatable and reliable. Presenter(s) have exceeded expectations through the originality of their idea or approach to the engineering solution they have identified, as well as completion of tasks (such as extra credit) beyond the expectations of the project."},
+        {"label": "Great", "score": 4, "descriptor": "Presenter(s) have clearly identified an engineering solution to a real-world problem and demonstrated a feasible solution to the issue. The device's performance is repeatable and reliable. Presenter(s) have exceeded expectations through the originality of their idea or approach to the engineering solution they have identified."},
+        {"label": "Good", "score": 3, "descriptor": "Presenter(s) have adequately identified an engineering solution to a real-world problem and demonstrated a feasible solution to the issue. The device's performance is overall repeatable and reliable. Presenter(s) have all met expectations for their project."},
+        {"label": "Fair", "score": 2, "descriptor": "Presenter(s) have adequately identified an engineering solution to a real-world problem and demonstrated a feasible solution to the issue. The device can complete most of its functions, or, if it is completely functional, testing was not robust, resulting in an incomplete demonstration."},
+        {"label": "Poor", "score": 1, "descriptor": "Presenter(s) have not adequately identified an engineering solution to a real-world problem and demonstrated a feasible solution to the issue. The device does not function as intended or described."}
+      ]
+    },
+    {
+      "criterionId": "prototype-value-potential", "name": "Prototype Value & Potential", "weight": 0.20,
+      "levels": [
+        {"label": "Excellent", "score": 5, "descriptor": "The prototype presents a clear solution to an engineering problem. The presenters have created a unique and effective solution with clear value to its target audience. There is strong potential for further development, and the presenters articulate clear next steps for future directions in testing or fabrication (scaling up, incorporating higher quality materials, making use of institutional resources such as the Prototyping Fund, e-Lab funds, etc)."},
+        {"label": "Great", "score": 4, "descriptor": "The value of the prototype is clear. The presenters have created a unique, effective solution with clear value to its target audience, and they articulate how the prototype would compare to existing solutions. There is strong potential for further development, and the solution stands out in at least one way compared to existing solutions."},
+        {"label": "Good", "score": 3, "descriptor": "The value of the prototype is clear. The presenters clearly articulate their motivation for their project, identifying a target audience and existing solutions to the problem. The presenters can describe how their prototype, if further developed, would provide an effective alternative to existing solutions, or fill a gap where solutions may not already exist."},
+        {"label": "Fair", "score": 2, "descriptor": "The value of the prototype is somewhat clear. The presenters share their motivation for the project, but their understanding of their target audience and existing solutions to the problem is limited."},
+        {"label": "Poor", "score": 1, "descriptor": "The value of the prototype is unclear. There is unclear motivation for the project. The presenters demonstrate no understanding of the prototype's target audience and/or existing solutions to the problem they have identified."}
+      ]
+    },
+    {
+      "criterionId": "communication", "name": "Communication", "weight": 0.25,
+      "levels": [
+        {"label": "Excellent", "score": 5, "descriptor": "Presenter(s) speak clearly and could succinctly and compellingly describe their motivations, methodology, and results. They use the poster as a tool for explanation and guide for their presentation, engaging in conversation with the audience. They answer all questions appropriately and elaborate for clarity if needed. A non-specialist could easily understand their work."},
+        {"label": "Great", "score": 4, "descriptor": "Presenter(s) speak clearly and could succinctly describe their motivations, methodology, and results. They use the poster as a tool for explanation and guide for their presentation, engaging in conversation with the audience. They answer most questions appropriately and elaborate for clarity if needed. A non-specialist could easily understand their work."},
+        {"label": "Good", "score": 3, "descriptor": "Presenter(s) speak clearly and could adequately describe their motivations, methodology, and results. They use the poster as a tool for explanation and guide for their presentation. They answer most questions appropriately but are somewhat able to elaborate for clarity when needed. A non-specialist could understand their work."},
+        {"label": "Fair", "score": 2, "descriptor": "Presenter(s) speak clearly for most of the time, but could not adequately describe all of their motivations, methodology, and results. They are unengaged with the audience for a significant amount of time, reading from the poster rather than discussing the content with the audience. They are somewhat able to answer questions appropriately and unable to elaborate for clarity when needed. A non-specialist could not easily understand their work."},
+        {"label": "Poor", "score": 1, "descriptor": "Presenter(s) were unprepared. They do not speak clearly and failed to succinctly describe the context and details of their work. They are unengaged with the audience, reading from the poster the entire time, and they are unable to answer audience questions about their work. Their work is not understandable by the audience."}
+      ]
+    },
+    {
+      "criterionId": "spelling-grammar", "name": "Spelling and Grammar", "weight": 0.05,
+      "levels": [
+        {"label": "Excellent", "score": 5, "descriptor": "No spelling and grammar mistakes"},
+        {"label": "Great", "score": 4, "descriptor": "Minimal spelling and grammar mistakes"},
+        {"label": "Good", "score": 3, "descriptor": "Noticeable spelling and grammar mistakes"},
+        {"label": "Fair", "score": 2, "descriptor": "Frequent spelling and grammar mistakes, present in almost every section of the poster"},
+        {"label": "Poor", "score": 1, "descriptor": "Excessive spelling and/or grammar mistakes, distracting completely from the content of the poster"}
+      ]
+    }
+  ]
+}
